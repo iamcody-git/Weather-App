@@ -1,0 +1,160 @@
+/* General Styles */
+.weather-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .main-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .side-section {
+    width: 250px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Weather Info Section */
+  .waether-info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .location h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .condition h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  /* Weather Hours Section */
+  .weather-hours {
+    display: flex;
+  }
+  
+  .hour-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .hour-time p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .hour-condition {
+    font-size: 24px;
+    color: #555;
+  }
+  
+  .hour-temp h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  /* Side Section (Search Box, Temperature Info, Forecast) */
+  .search-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .search-box input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .search-box .icon {
+    color: #555;
+    font-size: 18px;
+    margin-right: 8px;
+  }
+  
+  .temp-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .temp-info h1 {
+    font-size: 50px;
+    color: #333;
+  }
+  
+  .temp-info p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  /* Forecast Days Section */
+  .forecast-days {
+    margin-top: 20px;
+  }
+  
+  .forecast-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .forecast-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .forecast-icons {
+    font-size: 24px;
+    color: #555;
+    margin-right: 10px;
+  }
+  
+  .details h2 {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .details p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .forecast-temp {
+    text-align: center;
+  }
+  
+  .forecast-temp h2 {
+    font-size: 18px;
+    color: #333;
+  }
+  
